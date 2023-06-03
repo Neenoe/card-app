@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.app_card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.app_card_body {
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   background-color: hsl(213, 19%, 18%);
+   margin-top: 2rem;
+}
+.app_card_body-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    width: 60px;
+    height: 60px;
+    margin-top: 1rem;
+}
+
+.app_card_body-img img {
+    width: 30px;
+    height: 30px;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    border-color: red;
+  
+}
+
+.app_card_texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+}
+
+.app_card_texts span {
+    font-family: var(--font-family);
+    color:  hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+    width: 350px;
+    margin-left: 1rem;
+}
+
+.app_card_texts p {
+    font-family:  var(--font-family);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 26px;
+    justify-content: start;
+    padding: 1rem 1rem;
+}
+
+.app_card_list {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.app_card_lists {
+    margin-left: 2.1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+
+
+}
+
+.app_card_lists:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.app_card_lists:active {
+  background-color:  red;
+}
+
+.active { /* active CSS class */
+    background-color: red;
+  }
+
+button {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    align-self:  center;
+    border-radius: 30px;
+    font-family: var(--font-family);
+    background-color: hsl(25, 97%, 53%) ;
+    color: hsl(0, 0%, 100%);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,53 @@
+.app_thankyou_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.app_thankyou_body {
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   background-color: hsl(213, 19%, 18%);
+   margin-top: 2rem;
+   align-items: center;
+}
+
+.app_thankyou_body img {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 150px;
+    margin-top: 2rem;
+}
+
+.app_thankyou_body p {
+    width: 200px;
+    background-color: red;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(210, 19%, 15%);
+    color:  hsl(25, 97%, 53%);
+
+}
+
+.app_thankyou_body h3 {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.app_thankyou_body span {
+    color: hsl(217, 12%, 63%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
